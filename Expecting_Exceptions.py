@@ -9,6 +9,7 @@ try:  # TRY
 except ValueError: # except
     print("Oh no that no value !!!!!")
 
-amount_due = split_check(total_due, number_of_people)
+else:
+    amount_due = split_check(total_due, number_of_people)
 
-print("Each person owes $ {}".format(amount_due))
+    print("Each person owes $ {}".format(amount_due))
